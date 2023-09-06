@@ -1,0 +1,76 @@
+.Passengers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.Passengers input {
+  font-size: 1rem;
+  margin: 16px 0;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Passengers-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.button-passangers {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(2 132 199);
+  color: #fff;
+  transition: all .2s;
+}
+
+.button-passangers:hover {
+  border: 1px solid white;
+}
+
+.Passengers-title {
+  margin-bottom: 16px;
+}
+
+.Passengers-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  text-align: start;
+}
+
+.Passenger-pay {
+  border: 1px solid transparent;
+  background-color: #fff;
+  padding: 8px 14px;
+  color: rgb(2 132 199);
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .2s;
+}
+.Passenger-pay:hover {
+  border: 1px solid #fff;
+  background-color: rgb(2 132 199);
+  color: #fff;
+}
+
+.Passenger-disabled{
+  border: none;
+  background-color: rgba(255, 255, 255, 0.342);
+  padding: 8px 14px;
+  color: rgb(2 132 199);
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
